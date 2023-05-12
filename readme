@@ -1,0 +1,1 @@
+You can import contact details in bulk using excel file. Column names for excel should be "Name","Mobile Number","Reminder Date". This program will compare current date with Reminder date and send message to respective phone numnbers if current date == reminder date.
