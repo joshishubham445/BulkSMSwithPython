@@ -16,7 +16,7 @@ filteredWB = filteredWB.loc[(filteredWB["Reminder Date"].dt.date == date.today()
 for data in filteredWB.index:
     mobileNo = int(filteredWB["Mobile Number"][data])
     querystring = {"authorization":"Add your API Key",
-               "sender_id":"TXTIND",
+               "sender_id":"Add your DLT ID",
                "message":"Add your message",
                "route":"v3",
                "numbers":mobileNo}
